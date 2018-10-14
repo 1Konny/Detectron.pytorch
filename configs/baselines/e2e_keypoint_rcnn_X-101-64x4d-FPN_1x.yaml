@@ -22,7 +22,7 @@ RESNETS:
   NUM_GROUPS: 64
   WIDTH_PER_GROUP: 4
 FAST_RCNN:
-  ROI_BOX_HEAD: head_builder.roi_2mlp_head
+  ROI_BOX_HEAD: fast_rcnn_heads.roi_2mlp_head
   ROI_XFORM_METHOD: RoIAlign
   ROI_XFORM_RESOLUTION: 7
   ROI_XFORM_SAMPLING_RATIO: 2
